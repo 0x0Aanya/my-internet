@@ -38,3 +38,96 @@ div.ds-flex {
     opacity: 1 !important;
   }
 }
+/* deepseek-transparency */
+body {
+  background: transparent !important;
+}
+
+body[data-ds-dark-theme] {
+  --dsr-bg: transparent !important;
+  --ds-side-bg: transparent !important;
+}
+
+#root,
+#root .ds-virtual-list,
+#root .ds-virtual-list-items,
+#root .ds-virtual-list-visible-items,
+#root .ds-message,
+#root .the-header {
+  background: transparent !important;
+  background-image: none !important;
+}
+
+/* deepseek-remove overlay */
+div._4cbcd96 {
+  background: transparent !important;
+}
+
+/* deepseek-remove gradient */
+div.d72636e2 {
+  background: transparent !important;
+  background-image: none !important;
+}
+
+/* deepseek-composer */
+.aaff8b8f > div:first-child {
+  background: rgba(8, 10, 14, 0.38) !important;
+  background-image: none !important;
+  border: 2px solid rgba(255, 255, 255, 0.28) !important;
+  border-radius: 22px !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  padding: 8px !important;
+}
+
+.aaff8b8f > div:first-child textarea {
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  padding: 12px 10px !important;
+}
+
+.aaff8b8f > div:first-child .ds-button {
+  background: rgba(255, 255, 255, 0.06) !important;
+  background-image: none !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.22) !important;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+}
+
+.aaff8b8f > div:first-child .ds-button:hover {
+  background: rgba(255, 255, 255, 0.11) !important;
+  border-color: rgba(255, 255, 255, 0.34) !important;
+  box-shadow: none !important;
+}
+
+/* deepseek-codeblocks */
+#root .md-code-block {
+  background: rgba(8, 10, 14, 0.46) !important;
+  background-color: rgba(8, 10, 14, 0.46) !important;
+  background-image: none !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.20) !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+#root .md-code-block pre,
+#root .md-code-block code {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* deepseek-images */
+#root img {
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
+}
